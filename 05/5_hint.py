@@ -41,17 +41,19 @@ w1 = -1
 w2 = 1
 
 # 式3.13〜3.15
-for n in range(Iteration):  
+for n in range(Iteration):
+    # data0
     for i in range(N0):
-        if (w0+w1*data0[0, i]+w2*data0[1, i]) * data0[2, i] <= 0: # 分類が誤っている点
-            w0 += data0[2, i]
-            w1 += data0[0, i] * data0[2, i]
-            w2 += data0[1, i] * data0[2, i]
+        if # 書き込んでください  # 分類が誤っている点
+            w0 += # 書き込んでください
+            w1 += # 書き込んでください
+            w2 += # 書き込んでください
+    # data1
     for i in range(N1):
-         if (w0+w1*data1[0, i]+w2*data1[1, i]) * data1[2, i] <= 0: # 分類が誤っている点
-            w0 += data1[2, i]
-            w1 += data1[0, i] * data1[2, i]
-            w2 += data1[1, i] * data1[2, i]
+         if # 書き込んでください # 分類が誤っている点
+            w0 += # 書き込んでください
+            w1 += # 書き込んでください
+            w2 += # 書き込んでください
 
 # 求めた直線を描写します
 # y = -(1/w2)(w0+w1*x)です
